@@ -1,0 +1,6 @@
+{
+  "name": "snippet",
+  "description": "A library of code snippets.",
+  "version": "1.0",
+  "main": "./index.js"
+}
