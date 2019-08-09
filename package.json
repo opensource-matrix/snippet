@@ -2,5 +2,9 @@
   "name": "snippet",
   "description": "A library of code snippets.",
   "version": "1.0",
-  "main": "./index.js"
+  "main": "./package.js",
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "glob": "^7.1.4"
+  }
 }
