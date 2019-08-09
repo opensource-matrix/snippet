@@ -5,7 +5,7 @@ var snippet = require('../package.js'),
 try {
   console.log(snippet.checkLanguage('javascript'));
   console.log(snippet.checkName('hello_world_js'));
-  console.log(snippet.getAllSnippetsByLanguage('javascript'));
+  console.log(snippet.getSnippetsByLanguage('javascript'));
   console.log(snippet.getSnippetByName('hello_world_js'));
   console.log(snippet.getSnippets());
 } catch(err) {
