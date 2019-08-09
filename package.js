@@ -47,8 +47,7 @@ try {
     });
   })
 } catch(e) {
-  snippet_log('error', err.message);
-  snippet_log('error', 'Glob error');
+  snippet_log('error', 'Glob Error : ' + err.message);
 }
 console.log(snippets)
 

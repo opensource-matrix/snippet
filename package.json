@@ -1,7 +1,7 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./package.js",
   "devDependencies": {
     "colors": "^1.3.3",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/opensource-matrix/snippet/issues",
     "email": "uiysgamer@gmail.com"
+  },
+  "scripts": {
+    "test": "./test/test.js"
   }
 }
