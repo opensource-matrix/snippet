@@ -18,4 +18,4 @@ var finVer = [
 
 jsonObj.version = finVer;
 
-fs.writeFileSync('./package.json', JSON.stringify(jsonObj));
+fs.writeFileSync('./package.json', JSON.stringify(jsonObj, null, 2));
