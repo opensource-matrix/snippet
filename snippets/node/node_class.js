@@ -1,6 +1,6 @@
 class MyNodeClass {
   constructor() {
-    print('Hello, world!');
+    console.log('Hello, world!');
   }
 }
 
