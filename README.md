@@ -48,5 +48,6 @@ You may add a Snippet and it will be reviewed within the next 48 hours.
 
 ## Contributors
 The following is a list of all contributors;
-[astronomize](https://github.com/astronomizedev)
 [revelmind](https://github.com/revelmind)
+[astronomize](https://github.com/astronomizedev)
+
