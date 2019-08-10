@@ -10,7 +10,7 @@ try {
   console.log(snippet.getSnippetByName('hello_world_js'));
   console.log(snippet.getSnippets(), snippet_log);
 
-  test_js(snippet.getSnippetsByLanguage());
+  test_js(snippet.getSnippetsByLanguage('javascript'));
 } catch(err) {
   snippet_log('error', 'Testing error : ' + err.message);
   process.exit(1);
