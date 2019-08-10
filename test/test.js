@@ -11,6 +11,7 @@ try {
   console.log(snippet.getSnippets(), snippet_log);
 
   test_js(snippet.getSnippetsByLanguage('javascript'));
+  test_js(snippet.getSnippetsByLanguage('node'));
 } catch(err) {
   snippet_log('error', 'Testing error : ' + err.message);
   process.exit(1);
