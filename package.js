@@ -28,6 +28,9 @@ var langs = {
   ],
   ruby: [
     '.rb'
+  ],
+  java: [
+    '.java'
   ]
 };
 
