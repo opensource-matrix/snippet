@@ -1,8 +1,8 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.1.6",
-  "main": "./package.js",
+  "version": "1.1.7",
+  "main": "./package/package.js",
   "devDependencies": {
     "colors": "^1.3.3",
     "glob": "^7.1.4"

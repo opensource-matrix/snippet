@@ -1,5 +1,5 @@
 /* Test the Snippet Library */
-var snippet = require('../package.js'),
+var snippet = require('../package/package.js'),
     snippet_log = require('../snippet_log.js'),
     test_js = require('./test_js.js');
 
