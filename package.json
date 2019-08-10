@@ -1,7 +1,7 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "main": "./package.js",
   "devDependencies": {
     "colors": "^1.3.3",
@@ -17,5 +17,17 @@
   },
   "scripts": {
     "test": "node ./test/test.js"
-  }
+  },
+  "tags": [
+    "snippet",
+    "snippets",
+    "programming",
+    "language",
+    "languages",
+    "ruby",
+    "node",
+    "nodejs",
+    "javascript",
+    "java"
+  ]
 }
