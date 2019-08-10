@@ -34,6 +34,10 @@ var langs = {
   ],
   node: [
     '.js'
+  ],
+  batch: [
+    '.bat',
+    '.cmd'
   ]
 };
 
