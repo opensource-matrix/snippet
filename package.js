@@ -31,6 +31,9 @@ var langs = {
   ],
   java: [
     '.java'
+  ],
+  node: [
+    '.js'
   ]
 };
 
