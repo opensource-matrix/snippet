@@ -26,7 +26,6 @@ var langs = JSON.parse(fs.readFileSync('./src/languages.json').toString());
 
 try {
   files = glob.sync('snippets/**/*.*')
-  console.log('Loading snippets.')
   files.forEach(function(file) {
     var language = path.dirname(file);
     var fn = path.basename(file);
