@@ -25,6 +25,9 @@ var snippets = [];
 var langs = {
   javascript: [
     '.js'
+  ],
+  ruby: [
+    '.rb'
   ]
 };
 
