@@ -1,0 +1,18 @@
+{
+  "javascript": [
+    ".js"
+  ],
+  "ruby": [
+    ".rb"
+  ],
+  "java": [
+    ".java"
+  ],
+  "node": [
+    ".js"
+  ],
+  "batch": [
+    ".bat",
+    ".cmd"
+  ]
+}

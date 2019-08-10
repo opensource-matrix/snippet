@@ -22,24 +22,7 @@ var glob = require('glob'),
     }]
   */
 var snippets = [];
-var langs = {
-  javascript: [
-    '.js'
-  ],
-  ruby: [
-    '.rb'
-  ],
-  java: [
-    '.java'
-  ],
-  node: [
-    '.js'
-  ],
-  batch: [
-    '.bat',
-    '.cmd'
-  ]
-};
+var langs = JSON.parse(fs.readFileSync('./src/languages.json').toString());
 
 try {
   files = glob.sync('snippets/**/*.*')
