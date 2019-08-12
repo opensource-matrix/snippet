@@ -7,7 +7,7 @@ Snippet is a library of code files that are free to use.
 var glob = require('glob'),
     fs = require('fs'),
     path = require('path'),
-    snippet_log = require('../snippet_log.js');
+    snippet_log = require('./snippet_log.js');
 
   /*
     We are looking for files that match:
