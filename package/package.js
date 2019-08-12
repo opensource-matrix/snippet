@@ -22,7 +22,7 @@ var glob = require('glob'),
     }]
   */
 var snippets = [];
-var langs = JSON.parse(fs.readFileSync('../src/languages.json').toString());
+var langs = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/languages.json')).toString());
 
 try {
   files = glob.sync('snippets/**/*.*')
