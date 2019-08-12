@@ -1,7 +1,7 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "main": "./package/package.js",
   "devDependencies": {
     "colors": "^1.3.3",
@@ -37,11 +37,11 @@
     "/test",
     ".gitignore",
     ".npmignore",
-    "./publish.bat",
-    "./package.json",
-    "./1up.js",
-    "./package-lock.json",
-    "./README.md",
-    "./snippet_log.js"
+    "publish.bat",
+    "package.json",
+    "1up.js",
+    "package-lock.json",
+    "README.md",
+    "snippet_log.js"
   ]
 }
