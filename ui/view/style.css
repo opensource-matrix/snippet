@@ -1,0 +1,64 @@
+#title-bar {
+  -webkit-app-region: drag;
+  height: 30px;
+  padding: none;
+  margin: 0px;
+  user-select: none;
+}
+
+.item {
+  height: 75px;
+  padding: none;
+  margin: 0px;
+}
+
+#title {
+  position: fixed;
+  top: 0px;
+  left: 6px;
+}
+
+#title-bar-btns {
+  -webkit-app-region: no-drag;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.window-button {
+  height: 30px !important;
+  line-height: 30px;
+  padding: 0 0.5rem;
+}
+
+.window-button:hover {
+  filter: brightness(85%);
+}
+
+.breadcrumb:before {
+  color: #343434;
+  font-size: 1.2em;
+}
+
+.breadcrumb,
+.breadcrumb:last-child {
+  color: #343434;
+  font-size: 0.9em;
+}
+
+.breadcrumb:first-child {
+  font-weight: bold;
+}
+
+.data {
+  position: absolute;
+  left: 6px;
+}
+
+.item:hover {
+  height: 75px;
+  padding: none;
+  margin: 0px;
+  background-color: blue;
+  transition: 4s;
+}

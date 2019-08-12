@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Snippet</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="title-bar" class="grey lighten-2">
+      <div id="title" class="window-button">
+        <a href="#!" class="breadcrumb">Snippet</a>
+      </div>
+      <div id="title-bar-btns">
+        <button id="min-btn" class="window-button waves-effect waves-teal btn-flat grey lighten-2" onclick="minimizeWindow()"><i class="material-icons">expand_more</i></button>
+        <button id="max-btn" class="window-button waves-effect waves-teal btn-flat grey lighten-2"><i class="material-icons" onclick="maximizeWindow()">fullscreen</i></button>
+        <button id="close-btn" class="window-button waves-effect waves-red btn-flat grey lighten-2"><i class="material-icons" onclick="closeWindow()">close</i></button>
+      </div>
+    </div>
+
+    <script>
+      /* Load Snippets */
+      var snippet = require('@matrixoc/snippet');
+      var snippets = snippet.getSnippets();
+
+      Object.keys(snippets).forEach(function(lang) {
+        document.write(`
+          <div id="content" class="item grey lighten-2">
+            <div class="window-button">
+              <span class="breadcrumb">${snip.Language}</a>
+            </div>
+            <div class="data">
+              Click to see ${lang}'s snippets.
+            </div>
+          </div>
+        `)
+      })
+
+    </script>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'></script>
+  </body>
+</html>
