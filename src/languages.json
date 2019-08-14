@@ -13,5 +13,8 @@
   ],
   "batch": [
     ".batch"
+  ],
+  "shell": [
+    ".sh"
   ]
 }
