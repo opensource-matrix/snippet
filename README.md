@@ -10,6 +10,9 @@ yarn install @matrixoc/snippet
 npm install @matrixoc/snippet
 ```
 
+## Contributing
+See [CONTRIBUTING.md](//github.com/opensource-matrix/snippet/blob/master/CONTRIBUTING.md).
+
 ## API
 There is a few functions that package up some helpful methods for use with Snippet.
 
@@ -50,5 +53,3 @@ You may add a Snippet and it will be reviewed within the next 48 hours.
 The following is a list of all contributors(a-z);
 - [astronomize](https://github.com/astronomizedev)
 - [revelmind](https://github.com/revelmind)
-
-
