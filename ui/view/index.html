@@ -21,24 +21,7 @@
       </div>
     </div>
 
-    <script>
-      /* Load Snippets */
-      var snippet = require('@matrixoc/snippet');
-      var snippets = snippet.getSnippets();
-
-      Object.keys(snippets).forEach(function(lang) {
-        document.write(`
-          <div id="content" class="item grey lighten-2">
-            <div class="window-button">
-              <span class="breadcrumb">${snip.Language}</a>
-            </div>
-            <div class="data">
-              Click to see ${lang}'s snippets.
-            </div>
-          </div>
-        `)
-      })
-    </script>
+    <script type="text/javascript" src="js/loadSnippets.js"></script>
 
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>

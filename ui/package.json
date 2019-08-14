@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "./package/package.js",
   "devDependencies": {
-    "@matrixoc/snippet": "^1.1.18",
+    "@matrixoc/snippet": "^1.1.22",
     "electron": "^6.0.1"
   },
   "repository": {
