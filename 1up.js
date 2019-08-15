@@ -23,4 +23,3 @@ fs.writeFileSync('./package.json', JSON.stringify(jsonObj, null, 2));
 
 cP.exec('gem build snippet.gemspec');
 cP.exec('gem push snippet-' + jsonObj.version + '.gem');
-fs.unlinkSync('snippetpkg-' + jsonObj.version + '.gem');
