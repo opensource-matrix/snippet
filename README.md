@@ -6,7 +6,7 @@ Snippet is a library of code snippets/examples.  It's made to show people exampl
 ## Installation
 Install `Snippet` with `Yarn` or `NPM`:
 ```
-yarn install @matrixoc/snippet
+yarn add @matrixoc/snippet
 npm install @matrixoc/snippet
 ```
 
