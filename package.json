@@ -1,7 +1,7 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.1.37",
+  "version": "1.1.38",
   "main": "./package/package.js",
   "devDependencies": {
     "colors": "^1.3.3",
@@ -16,7 +16,7 @@
     "email": "uiysgamer@gmail.com"
   },
   "scripts": {
-    "test": "node ./test/test.js | ruby ./test/test_ruby.js"
+    "test": "node ./test/test.js | ruby ./test/test_ruby.rb"
   },
   "keywords": [
     "snippet",
