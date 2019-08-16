@@ -1,7 +1,7 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.1.45",
+  "version": "1.1.46",
   "main": "./package/package.js",
   "devDependencies": {
     "colors": "^1.3.3",
@@ -49,5 +49,8 @@
   ],
   "bin": {
     "create_language": "./addLanguage.js"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
   }
 }
