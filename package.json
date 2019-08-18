@@ -1,11 +1,14 @@
 {
   "name": "@matrixoc/snippet",
   "description": "A library of code snippets.",
-  "version": "1.1.51",
+  "version": "1.1.52",
   "main": "./package/package.js",
   "devDependencies": {
     "colors": "^1.3.3",
-    "glob": "^7.1.4"
+    "glob": "^7.1.4",
+    "ws": ">=3.3.1",
+    "braces": ">=2.3.1",
+    "marked": ">=0.6.1"
   },
   "repository": {
     "type": "git",
