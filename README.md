@@ -52,4 +52,5 @@ You may add a Snippet and it will be reviewed within the next 48 hours.
 ## Contributors
 The following is a list of all contributors(a-z);
 - [astronomize](https://github.com/astronomizedev)
+- [krthr](https://github.com/krthr)
 - [revelmind](https://github.com/revelmind)
