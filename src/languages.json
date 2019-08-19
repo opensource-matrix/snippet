@@ -17,7 +17,9 @@
   "shell": [
     ".sh"
   ],
-  "python": [],
+  "python": [
+    ".py"
+  ],
   "cs": [
     ".cs"
   ],
@@ -31,6 +33,7 @@
     ".cr"
   ],
   "html": [
-    ".html", ".htm"
-  ],
+    ".html",
+    ".htm"
+  ]
 }
