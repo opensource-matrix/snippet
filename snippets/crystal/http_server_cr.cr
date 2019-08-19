@@ -1,4 +1,4 @@
-// https://crystal-lang.org/reference/overview/http_server.html
+# https://crystal-lang.org/reference/overview/http_server.html
 
 require "http/server"
 
