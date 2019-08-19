@@ -29,8 +29,8 @@
   ],
   "crystal": [
     ".cr"
-  ]
+  ],
   "html": [
     ".html", ".htm"
-  ]
+  ],
 }
