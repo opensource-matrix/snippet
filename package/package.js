@@ -42,7 +42,7 @@ try {
     });
   })
 } catch(e) {
-  snippet_log('error', 'Glob Error : ' + err.message);
+  snippet_log('error', 'Glob Error : ' + e.message);
 }
 console.log(snippets)
 
