@@ -1,5 +1,5 @@
 # Snippet
-[![Build Status](https://travis-ci.com/opensource-matrix/snippet.svg?branch=master)](https://travis-ci.com/opensource-matrix/snippet)[![CircleCI](https://circleci.com/gh/opensource-matrix/snippet.svg?style=svg)](https://circleci.com/gh/opensource-matrix/snippet)
+[![Build Status](https://travis-ci.com/opensource-matrix/snippet.svg?branch=master)](https://travis-ci.com/opensource-matrix/snippet) [![CircleCI](https://circleci.com/gh/opensource-matrix/snippet.svg?style=svg)](https://circleci.com/gh/opensource-matrix/snippet)
 
 Snippet is a library of code snippets/examples.  It's made to show people examples of code that can easily be executed and used.
 
